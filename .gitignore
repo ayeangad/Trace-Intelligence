@@ -16,12 +16,6 @@ dist/
 # Token ledger is regenerated on every metered run; not source of truth
 results/tokens.csv
 
-# ─────────────────────────────────────────────
-# doc/ — PERSONAL, NEVER COMMITTED
-# Your private notes: interview prep, outreach drafts,
-# Nessie-founder talking points, anything not for the
-# public repo. This directory is invisible to git.
-# ─────────────────────────────────────────────
 doc/
 
 # OS / editor noise
