@@ -1,0 +1,151 @@
+task,question,arm,correct,stale,provenance,tokens
+"payments","What database is currently used for idempotency?","raw",true,false,,39
+"payments","What database is currently used for idempotency?","summary",false,false,,50
+"payments","What database is currently used for idempotency?","trace_intel",true,false,1.000,119
+"payments","Why was Redis rejected?","raw",true,false,,44
+"payments","Why was Redis rejected?","summary",false,false,,44
+"payments","Why was Redis rejected?","trace_intel",true,false,1.000,123
+"payments","What is the current blocker?","raw",false,false,,33
+"payments","What is the current blocker?","summary",true,false,,45
+"payments","What is the current blocker?","trace_intel",true,false,1.000,110
+"payments","What file needs modification?","raw",true,false,,34
+"payments","What file needs modification?","summary",true,false,,46
+"payments","What file needs modification?","trace_intel",true,false,1.000,66
+"payments","What test is failing?","raw",true,false,,31
+"payments","What test is failing?","summary",true,false,,44
+"payments","What test is failing?","trace_intel",true,false,1.000,109
+"payments","What was the previous approach?","raw",true,false,,34
+"payments","What was the previous approach?","summary",false,false,,46
+"payments","What was the previous approach?","trace_intel",true,false,1.000,145
+"payments","What is the next action?","raw",true,false,,33
+"payments","What is the next action?","summary",true,false,,44
+"payments","What is the next action?","trace_intel",true,false,1.000,109
+"payments","Which decision is superseded?","raw",true,false,,34
+"payments","Which decision is superseded?","summary",false,false,,46
+"payments","Which decision is superseded?","trace_intel",true,false,1.000,146
+"payments","What changed since session_01?","raw",false,false,,34
+"payments","What changed since session_01?","summary",true,false,,46
+"payments","What changed since session_01?","trace_intel",true,false,1.000,141
+"payments","Why should the next agent care about event_id?","raw",true,false,,39
+"payments","Why should the next agent care about event_id?","summary",true,false,,50
+"payments","Why should the next agent care about event_id?","trace_intel",true,false,1.000,126
+"auth","What auth approach is currently used?","raw",false,true,,39
+"auth","What auth approach is currently used?","summary",true,false,,78
+"auth","What auth approach is currently used?","trace_intel",true,false,1.000,160
+"auth","Why were long-lived JWTs rejected?","raw",true,false,,76
+"auth","Why were long-lived JWTs rejected?","summary",false,false,,77
+"auth","Why were long-lived JWTs rejected?","trace_intel",true,false,1.000,216
+"auth","What is the current blocker?","raw",false,false,,44
+"auth","What is the current blocker?","summary",true,false,,75
+"auth","What is the current blocker?","trace_intel",true,false,1.000,154
+"auth","What file needs modification?","raw",true,false,,45
+"auth","What file needs modification?","summary",true,false,,76
+"auth","What file needs modification?","trace_intel",true,false,1.000,62
+"auth","What test is failing?","raw",true,false,,35
+"auth","What test is failing?","summary",true,false,,74
+"auth","What test is failing?","trace_intel",true,false,1.000,153
+"auth","What was the previous approach?","raw",true,false,,45
+"auth","What was the previous approach?","summary",true,false,,76
+"auth","What was the previous approach?","trace_intel",true,false,1.000,172
+"auth","What is the next action?","raw",true,false,,46
+"auth","What is the next action?","summary",true,false,,74
+"auth","What is the next action?","trace_intel",true,false,1.000,153
+"auth","Which decision is superseded?","raw",true,false,,45
+"auth","Which decision is superseded?","summary",true,false,,76
+"auth","Which decision is superseded?","trace_intel",true,false,1.000,215
+"auth","What changed since session_01?","raw",false,false,,45
+"auth","What changed since session_01?","summary",true,false,,76
+"auth","What changed since session_01?","trace_intel",true,false,1.000,155
+"auth","Where are refresh tokens stored?","raw",true,false,,58
+"auth","Where are refresh tokens stored?","summary",false,false,,76
+"auth","Where are refresh tokens stored?","trace_intel",true,false,1.000,168
+"pagination","What pagination is currently used?","raw",true,false,,70
+"pagination","What pagination is currently used?","summary",true,false,,66
+"pagination","What pagination is currently used?","trace_intel",true,false,1.000,217
+"pagination","Why was offset rejected?","raw",true,false,,71
+"pagination","Why was offset rejected?","summary",true,false,,63
+"pagination","Why was offset rejected?","trace_intel",true,false,1.000,161
+"pagination","What is the current blocker?","raw",false,false,,39
+"pagination","What is the current blocker?","summary",true,false,,64
+"pagination","What is the current blocker?","trace_intel",true,false,1.000,136
+"pagination","What file needs modification?","raw",true,false,,40
+"pagination","What file needs modification?","summary",true,false,,65
+"pagination","What file needs modification?","trace_intel",true,false,1.000,89
+"pagination","What test is failing?","raw",true,false,,33
+"pagination","What test is failing?","summary",true,false,,63
+"pagination","What test is failing?","trace_intel",true,false,1.000,135
+"pagination","What was the previous approach?","raw",true,false,,40
+"pagination","What was the previous approach?","summary",true,false,,65
+"pagination","What was the previous approach?","trace_intel",true,false,1.000,208
+"pagination","What is the next action?","raw",true,false,,41
+"pagination","What is the next action?","summary",true,false,,63
+"pagination","What is the next action?","trace_intel",true,false,1.000,135
+"pagination","Which decision is superseded?","raw",true,false,,40
+"pagination","Which decision is superseded?","summary",true,false,,65
+"pagination","Which decision is superseded?","trace_intel",true,false,1.000,217
+"pagination","What changed since session_01?","raw",false,false,,40
+"pagination","What changed since session_01?","summary",true,false,,65
+"pagination","What changed since session_01?","trace_intel",true,false,1.000,176
+"pagination","What cursor keys are used?","raw",true,false,,75
+"pagination","What cursor keys are used?","summary",true,false,,64
+"pagination","What cursor keys are used?","trace_intel",true,false,1.000,162
+"migration","What migration approach is current?","raw",false,true,,45
+"migration","What migration approach is current?","summary",true,false,,71
+"migration","What migration approach is current?","trace_intel",true,false,1.000,164
+"migration","Why was lock-step ALTER rejected?","raw",true,false,,77
+"migration","Why was lock-step ALTER rejected?","summary",false,false,,71
+"migration","Why was lock-step ALTER rejected?","trace_intel",true,false,1.000,170
+"migration","What is the current blocker?","raw",true,false,,75
+"migration","What is the current blocker?","summary",true,false,,69
+"migration","What is the current blocker?","trace_intel",true,false,1.000,125
+"migration","What file needs modification?","raw",true,false,,76
+"migration","What file needs modification?","summary",true,false,,70
+"migration","What file needs modification?","trace_intel",true,false,1.000,77
+"migration","What test is failing?","raw",true,false,,42
+"migration","What test is failing?","summary",true,false,,68
+"migration","What test is failing?","trace_intel",true,false,1.000,124
+"migration","What was the previous approach?","raw",true,false,,76
+"migration","What was the previous approach?","summary",true,false,,70
+"migration","What was the previous approach?","trace_intel",true,false,1.000,204
+"migration","What is the next action?","raw",true,false,,52
+"migration","What is the next action?","summary",true,false,,68
+"migration","What is the next action?","trace_intel",true,false,1.000,128
+"migration","Which decision is superseded?","raw",true,false,,76
+"migration","Which decision is superseded?","summary",false,false,,70
+"migration","Which decision is superseded?","trace_intel",true,false,1.000,169
+"migration","What changed since session_01?","raw",false,false,,76
+"migration","What changed since session_01?","summary",true,false,,70
+"migration","What changed since session_01?","trace_intel",true,false,1.000,160
+"migration","Which migration file is involved?","raw",true,false,,45
+"migration","Which migration file is involved?","summary",true,false,,71
+"migration","Which migration file is involved?","trace_intel",true,false,1.000,78
+"caching","What caching is currently enabled?","raw",true,false,,43
+"caching","What caching is currently enabled?","summary",true,false,,65
+"caching","What caching is currently enabled?","trace_intel",true,false,1.000,138
+"caching","Why was Redis rejected?","raw",true,false,,46
+"caching","Why was Redis rejected?","summary",false,false,,62
+"caching","Why was Redis rejected?","trace_intel",true,false,1.000,148
+"caching","Why was the LRU removed?","raw",false,false,,46
+"caching","Why was the LRU removed?","summary",false,false,,62
+"caching","Why was the LRU removed?","trace_intel",true,false,1.000,144
+"caching","What file is involved?","raw",true,false,,46
+"caching","What file is involved?","summary",true,false,,62
+"caching","What file is involved?","trace_intel",true,false,1.000,86
+"caching","What test failed?","raw",true,false,,43
+"caching","What test failed?","summary",false,false,,61
+"caching","What test failed?","trace_intel",true,false,1.000,137
+"caching","What was the previous approach?","raw",true,false,,48
+"caching","What was the previous approach?","summary",true,false,,64
+"caching","What was the previous approach?","trace_intel",true,false,1.000,164
+"caching","What is the next action?","raw",true,false,,38
+"caching","What is the next action?","summary",true,false,,62
+"caching","What is the next action?","trace_intel",true,false,1.000,142
+"caching","Which decisions are superseded?","raw",true,false,,48
+"caching","Which decisions are superseded?","summary",true,false,,64
+"caching","Which decisions are superseded?","trace_intel",true,false,1.000,215
+"caching","What changed since session_01?","raw",false,false,,48
+"caching","What changed since session_01?","summary",true,false,,64
+"caching","What changed since session_01?","trace_intel",true,false,1.000,189
+"caching","What was the cache hit rate before removal?","raw",true,false,,35
+"caching","What was the cache hit rate before removal?","summary",false,false,,67
+"caching","What was the cache hit rate before removal?","trace_intel",true,false,1.000,148

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "c_001",
+    "type": "NEXT_ACTION",
+    "text": "We need to add idempotency to payment webhooks.",
+    "status": "CURRENT",
+    "timestamp": "10:01",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e001"
+    ],
+    "valid_from": "10:01",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_002",
+    "type": "FILE",
+    "text": "src/webhook.py",
+    "status": "CURRENT",
+    "timestamp": "10:03",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e002"
+    ],
+    "valid_from": "10:03",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_003",
+    "type": "DECISION",
+    "text": "Redis could work for storing event IDs.",
+    "status": "SUPERSEDED",
+    "timestamp": "10:05",
+    "confidence": "LOW",
+    "source_spans": [
+      "e003"
+    ],
+    "valid_from": "10:05",
+    "valid_until": "10:21",
+    "superseded_by": "c_005"
+  },
+  {
+    "id": "c_004",
+    "type": "FILE",
+    "text": "src/database.py",
+    "status": "CURRENT",
+    "timestamp": "10:15",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e004"
+    ],
+    "valid_from": "10:15",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_005",
+    "type": "REJECTED_DECISION",
+    "text": "Actually, Redis introduces another infrastructure dependency.",
+    "status": "SUPERSEDED",
+    "timestamp": "10:21",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e005"
+    ],
+    "valid_from": "10:21",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_006",
+    "type": "DECISION",
+    "text": "Let's use the existing Postgres database instead.",
+    "status": "CURRENT",
+    "timestamp": "10:23",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e006"
+    ],
+    "valid_from": "10:23",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_007",
+    "type": "FILE",
+    "text": "tests/test_webhook.py",
+    "status": "CURRENT",
+    "timestamp": "11:04",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e007"
+    ],
+    "valid_from": "11:04",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_008",
+    "type": "BLOCKER",
+    "text": "FAILED duplicate webhook creates second payment",
+    "status": "CURRENT",
+    "timestamp": "11:05",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e008"
+    ],
+    "valid_from": "11:05",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_009",
+    "type": "BLOCKER",
+    "text": "The event ID isn't unique in the database.",
+    "status": "CURRENT",
+    "timestamp": "11:12",
+    "confidence": "MEDIUM",
+    "source_spans": [
+      "e009"
+    ],
+    "valid_from": "11:12",
+    "valid_until": null,
+    "superseded_by": null
+  },
+  {
+    "id": "c_010",
+    "type": "NEXT_ACTION",
+    "text": "Next step is to add a uniqueness constraint.",
+    "status": "CURRENT",
+    "timestamp": "11:20",
+    "confidence": "HIGH",
+    "source_spans": [
+      "e010"
+    ],
+    "valid_from": "11:20",
+    "valid_until": null,
+    "superseded_by": null
+  }
+]

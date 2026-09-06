@@ -1,0 +1,8 @@
+{"id":"e001","time":"09:01","type":"message","text":"API needs rate limiting. A fixed-window counter in Postgres could work."}
+{"id":"e002","time":"09:04","type":"tool_call","tool":"read_file","path":"src/ratelimit.py"}
+{"id":"e003","time":"09:15","type":"message","text":"Maybe fixed-window is fine, it is the simplest thing."}
+{"id":"e004","time":"09:28","type":"message","text":"Actually a fixed-window counter won't work, bursts at window edges double the rate. We decided to use a token-bucket limiter in Redis instead."}
+{"id":"e005","time":"09:40","type":"tool_call","tool":"run_test","command":"pytest tests/test_ratelimit.py"}
+{"id":"e006","time":"09:41","type":"tool_result","text":"FAILED burst refill races, two workers over-grant tokens"}
+{"id":"e007","time":"09:50","type":"message","text":"Bucket refill races under burst traffic."}
+{"id":"e008","time":"09:55","type":"message","text":"Next step is to add a Lua-script atomic refill."}
