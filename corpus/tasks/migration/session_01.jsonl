@@ -1,0 +1,4 @@
+{"id":"e001","time":"08:01","type":"message","text":"Need to add event_id column. A single ALTER TABLE with downtime could work."}
+{"id":"e002","time":"08:05","type":"tool_call","tool":"read_file","path":"db/migrations/042_add_event_id.sql"}
+{"id":"e003","time":"08:15","type":"message","text":"Actually a single lock-step ALTER TABLE won't work, it locks the table for large tenants. We decided to use expand-migrate-contract with a backfill job instead."}
+{"id":"e004","time":"08:18","type":"tool_call","tool":"read_file","path":"src/backfill.py"}

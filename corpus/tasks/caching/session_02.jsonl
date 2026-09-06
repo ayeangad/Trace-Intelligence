@@ -1,0 +1,4 @@
+{"id":"e006","time":"16:02","type":"message","text":"Load test shows the LRU causes a thundering-herd stampede on expiry."}
+{"id":"e007","time":"16:10","type":"tool_result","text":"FAILED stampede test, 40x backend spike on key expiry"}
+{"id":"e008","time":"16:20","type":"message","text":"We removed the LRU implementation. No caching layer is currently enabled."}
+{"id":"e009","time":"16:25","type":"message","text":"Next step is to run a load test without cache to set a baseline."}

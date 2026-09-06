@@ -1,0 +1,4 @@
+{"id":"e007","time":"10:02","type":"tool_call","tool":"run_test","command":"pytest tests/test_auth.py"}
+{"id":"e008","time":"10:03","type":"tool_result","text":"FAILED expired-token refresh raises unhandled error"}
+{"id":"e009","time":"10:10","type":"message","text":"The refresh flow breaks when the token is expired. Refresh token reuse is not yet detected."}
+{"id":"e010","time":"10:15","type":"message","text":"Next step is to add token reuse detection and revoke the token family."}

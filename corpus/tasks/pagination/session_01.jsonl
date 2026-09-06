@@ -1,0 +1,4 @@
+{"id":"e001","time":"13:01","type":"message","text":"API listing needs pagination. Offset-based pagination could work."}
+{"id":"e002","time":"13:04","type":"tool_call","tool":"read_file","path":"src/api.py"}
+{"id":"e003","time":"13:10","type":"message","text":"Maybe offset is fine, it is simple to implement."}
+{"id":"e004","time":"13:22","type":"message","text":"Actually offset-based pagination won't work, rows shift when new items arrive. Let's use cursor-based pagination on created_at plus id instead."}

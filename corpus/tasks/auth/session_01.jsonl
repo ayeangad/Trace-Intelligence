@@ -1,0 +1,6 @@
+{"id":"e001","time":"09:01","type":"message","text":"We need to fix session handling. Long-lived JWTs could work for simplicity."}
+{"id":"e002","time":"09:05","type":"tool_call","tool":"read_file","path":"src/auth.ts"}
+{"id":"e003","time":"09:12","type":"message","text":"Maybe long-lived JWTs are fine if we keep the secret safe."}
+{"id":"e004","time":"09:20","type":"tool_call","tool":"read_file","path":"src/refresh.ts"}
+{"id":"e005","time":"09:31","type":"message","text":"Actually long-lived JWTs won't work, a stolen token never expires. We decided to use short-lived JWT plus rotating refresh tokens."}
+{"id":"e006","time":"09:33","type":"message","text":"Let's store hashed refresh tokens in Postgres instead."}

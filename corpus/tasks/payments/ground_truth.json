@@ -1,0 +1,1 @@
+{"task":"payments","ground_truth":{"current_database":"postgres","rejected_database":"redis","current_blocker":"missing event_id uniqueness constraint","next_action":"add uniqueness constraint for event_id","relevant_files":["src/webhook.py","src/database.py","tests/test_webhook.py"],"failing_test":"tests/test_webhook.py duplicate webhook"}}
