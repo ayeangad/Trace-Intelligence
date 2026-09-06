@@ -1,0 +1,30 @@
+{
+  "name": "trace-intelligence",
+  "version": "0.1.0",
+  "description": "Turn messy agent/work traces into trustworthy current state with provenance",
+  "type": "commonjs",
+  "bin": {
+    "trace-intel": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli.ts",
+    "benchmark": "tsx eval/runner.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "keywords": ["trace", "agent", "provenance", "nessie"],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true,
+    "esbuild@0.28.2": true
+  }
+}
